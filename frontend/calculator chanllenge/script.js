@@ -10,7 +10,7 @@ class Calculator {
         area = area.toFixed(2)
         return area
     }
-    volumeOdCylinder() {
+    volumeOfCylinder() {
         const radius = this.prop1;
         const height = this.prop2;
         const pie = 3.142;
@@ -34,7 +34,7 @@ const width = 5;
 const newCal = new Calculator(base, height)
 console.log(newCal.areaOfParralogram());
 const newCal2 = new Calculator(height, radius)
-console.log(newCal2.volumeOdCylinder());
+console.log(newCal2.volumeOfCylinder());
 const newCal4 = new Calculator(length, width)
 console.log(newCal4.areaOfRectangle());
 
