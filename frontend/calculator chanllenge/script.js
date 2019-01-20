@@ -35,7 +35,7 @@ const newCal = new Calculator(base, height)
 console.log(newCal.areaOfParralogram());
 const newCal2 = new Calculator(height, radius)
 console.log(newCal2.volumeOdCylinder());
-const newCal3 = new Calculator(length, width)
-console.log(newCal3.areaOfRectangle());
+const newCal4 = new Calculator(length, width)
+console.log(newCal4.areaOfRectangle());
 
 
