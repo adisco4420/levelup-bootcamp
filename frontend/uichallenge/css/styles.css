@@ -1,0 +1,74 @@
+.left{
+    background-color: #a4c4b5;
+    color: #ffffff;
+}
+.left img{
+    width: 400px
+}
+.right{
+    background-color:  #ffffff;
+    
+}
+.right img{
+    width: 160px
+}
+.right p{
+    color: #a8aaa7;
+}
+
+.form-group {
+    position: relative;
+}
+
+.login-form {
+    max-width: 412px;
+   
+}
+.title{
+    color: #a9a9a9
+}
+label{
+    color: #c6c7c5
+}
+input{
+    color:  #3c3f39;
+}
+a{
+    color: #a4c4b5
+}
+button{
+    background: #696969;
+}
+hr{
+    background: #d7d7d7;
+}
+/* Divider Label: #c5c6c4 */
+/* Bottom Paragraph Text: #a8aaa7
+Active dot: #ffffff
+Inactive dots: #cdddc3
+Left section background color: 
+.
+Right section background color:
+Left section text color: #ffffff */
+
+.form-label {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    color: #999;
+    background-color: #fff;
+    z-index: 10;
+    transition: font-size 150ms ease-out, -webkit-transform 150ms ease-out;
+    transition: transform 150ms ease-out, font-size 150ms ease-out;
+    transition: transform 150ms ease-out, font-size 150ms ease-out, -webkit-transform 150ms ease-out;
+}
+
+.form-input {
+    position: relative;
+    padding: 12px 0px 5px 0;
+    width: 100%;
+    outline: 0;
+    border: 0;
+    box-shadow: 0 1px 0 0 #e5e5e5;
+    transition: box-shadow 150ms ease-out;
+}

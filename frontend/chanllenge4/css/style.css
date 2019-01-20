@@ -1,0 +1,33 @@
+.top .row {
+    background-color: red;
+    width: 800px;
+    padding: 100px;
+    margin: 10px 0px;
+}
+.top {
+    margin-left: 100px;
+}
+
+.middle .row {
+    
+    width: 1000px;
+    padding: 100px;
+    margin: 10px 0px;
+}
+.middle .row .col-md-4{
+    width: 30%;
+    padding: 10px;
+    background-color: blue;
+    margin: 0px 10px;
+    padding: 100px 156px;
+    display: inline;
+}
+.bottom .row {
+    background-color: red;
+    width: 800px;
+    padding: 100px;
+    margin: 10px 0px;
+}
+.bottom {
+    margin-left: 100px;
+}

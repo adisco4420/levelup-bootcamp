@@ -1,0 +1,12 @@
+.chanllenge1  input{
+    width: 300px;
+    border: 2px solid red;
+}
+.chanllenge1 input:focus{
+    border: 2px solid green;
+}
+@media(min-width: 350px){
+    .chanllenge1 input{
+        width: 150px;
+    }
+}
